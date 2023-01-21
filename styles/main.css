@@ -69,15 +69,16 @@ nav ul li a:hover {
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  justify-content: space-around;
 }
 
+/*
 .home-container {
   position: relative;
   margin: auto;
   width: 100px;
-  
 }
+*/
 
 .home-container img {
   width: 500px;
@@ -108,7 +109,7 @@ nav ul li a:hover {
 }
 
 h1 {
-  letter-spacing: 0.5px;
+  letter-spacing: 5px;
   text-align: center;
   font-size: xx-large;
   font-weight: 900;
@@ -137,6 +138,20 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  margin: 40px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
 
 footer {
