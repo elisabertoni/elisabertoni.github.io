@@ -1,7 +1,12 @@
 * {
   font-family: 'Lato', sans-serif;
-  background-color: white;
+  background-color: rgb(255, 250, 245);
   
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /*body {
@@ -16,7 +21,7 @@ header {
 }
 
 #title {
-  font-family: 'Caveat', cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 80px;
   display: inline;
   margin-left: 20px;
@@ -92,8 +97,14 @@ nav ul li a:hover {
   background-color: none;
 }
 
-#blog-box {
-  padding: 40px 600px;
+.blog-box {
+  padding: 40px 400px;
+}
+
+.blog-box img {
+  width: 70%;
+  height: auto;
+  
 }
 
 h1 {
@@ -108,12 +119,24 @@ h3 {
   text-align: justify;
   letter-spacing: 0.5px;
   font-weight: 900;
+  margin-top: 60px;
+}
+
+.subtitle {
+  text-align: center;
 }
 
 p {
   text-align: justify;
   letter-spacing: 0.5px;
   font-size: large;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 footer {
