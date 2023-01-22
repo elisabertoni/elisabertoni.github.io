@@ -1,7 +1,6 @@
 * {
   font-family: 'Lato', sans-serif;
   background-color: rgb(255, 250, 245);
-  
 }
 
 a {
@@ -19,6 +18,7 @@ img {
   padding: 0;
 }
 */
+
 header {
   color: black;
   margin: 20px 0px 20px 0px;
@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #354f52;
+  color: #6b8386;
 }
 
 .header-picture {
@@ -96,20 +96,8 @@ nav ul li a:hover {
   height: 700px;
 }
 
-#tech {
-  position: absolute;
-  font-size: 50px;
-  background-color: none;
-}
-
-#core {
-  position: absolute;
-  font-size: 50px;
-  background-color: none;
-}
-
 .blog-box {
-  padding: 40px 400px;
+  padding: 40px 500px;
 }
 
 .blog-box img {
@@ -163,6 +151,55 @@ p {
   line-height: 75px;
   font-size: 30px;
 }
+
+/* tech and core pages */
+
+#tech-heading, #core-heading{
+  padding-top: 40px;
+  letter-spacing: 8px;
+  margin: 40px 0px 10px 0px;
+  font-size: 50px;
+}
+
+.subheading {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #3f3c3c;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+  margin: 80px 180px;
+}
+
+.blog-post img {
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.blog-heading {
+  font-size: 26px;
+}
+
+.blog-heading:hover {
+  color: #6b8386;
+}
+
+.blog-subheading {
+  font-size: 15px;
+}
+
+.read-more {
+  font-size: 15px;
+  border-bottom: 1px solid #6b8386;
+  padding-bottom: 5px;
+}
+
+/* footer */
 
 footer {
   text-align: center;
