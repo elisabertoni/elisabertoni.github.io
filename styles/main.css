@@ -4,6 +4,11 @@
   
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -81,10 +86,15 @@ nav ul li a:hover {
 */
 
 .home-container img {
+  width: 400px;
+  height: 600px;
+  transition: 1s;
+}
+
+.home-container img:hover {
   width: 500px;
   height: 700px;
 }
-
 
 #tech {
   position: absolute;
