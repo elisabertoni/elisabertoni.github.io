@@ -234,6 +234,14 @@ nav ul li a:hover {
   color: #6b8386;
 }
 
+.story {
+  padding: 5px 90px 5px 80px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
 .references {
   font-size: 14px;
   line-height: 1;
