@@ -225,6 +225,15 @@ nav ul li a:hover {
   padding-bottom: 10px;
 }
 
+.back-arrow {
+  font-size: 22px;
+  padding: 5px 15px;
+}
+
+.back-arrow :hover {
+  color: #6b8386;
+}
+
 .references {
   font-size: 14px;
   line-height: 1;
