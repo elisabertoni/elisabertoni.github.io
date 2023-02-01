@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../styles/main.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lato:wght@400;900&family=Paprika&family=Roboto:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lato:ital,wght@0,400;0,900;1,400&family=Paprika&family=Roboto:ital@1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
         <title>JS Fundamentals</title>
     </head>
@@ -104,6 +104,7 @@
           <a href="https://www.freecodecamp.org/news/dom-explained-everything-you-need-to-know-about-the-document-object-model/">FreeCodeCamp</a>.
         </p>
         <p>
+          <div class="separation">...</div>
           <div class="story">"Imagine this: you have the TV on but you don't like 
             the show that's being streamed, and you want to change channel.
             <br>How can you do that?<br>
@@ -115,6 +116,7 @@
             You make the TV active and dynamic via the remote.
             And in the same way, JavaScript makes the HTML page active and dynamic via the DOM."
           </div>
+          <div class="separation">...</div>
         </p>
         <p>
           DOM stands for Document Object Model. It is a programming interface 
@@ -132,7 +134,12 @@
         <img src="../images/DOM.png" alt="document.querySelectorAll(paragraph)" class="img-center">
         <h3>Array vs. Objects</h3>
         <p>
-          An array is an ordered collection of data and arrays are used to store multiple values at once. 
+          Arrays and objects are two ways of collecting data into a group. 
+          Let's try to understand what is the difference between the two and 
+          when you should use one rather than the other.
+        </p>
+        <p>
+          An <strong>array</strong> is an ordered collection of data and arrays are used to store a list of multiple values in a single variable.
           Each of those value is called an element and every element has a number attached to it, 
           called a numeric index, that allows us to access it. In JavaScript, arrays start at index 
           zero and array can be manipulated with various methods.
@@ -146,7 +153,8 @@
         </p>
         <img src="../images/array.png" alt="code-showing-different-types-of-arrays" class="img-center">
         <p>
-          We can access the data inside arrays using indexes. Don't forget that arrays use zero-based indexing, 
+          We can access the data inside arrays by their numerical position in the list, aka index. 
+          Don't forget that arrays use zero-based indexing, 
           so the first element in an array is element <code> [0]</code>.
         </p>
         <p>
@@ -160,6 +168,29 @@
           Let's say we want to access the seventh element, which is <code>"wine"</code>, our code will look like this: 
         </p>
         <img src="../images/access-array.png" alt="code-showing-how-to-access-an-arrays" class="img-center">
+        <br>
+        <p>
+          Same as arrays, objects represent a data type that is mutable and can be used to store a collection of data. 
+        </p>
+        <p>
+          <strong>Objects</strong> are used to represent a “thing” in your code. That could be a person, 
+          a dog, a book, a house - basically anything that can be defined by a set of characteristics. 
+          In objects, these characteristics are called properties that consist of a 
+          <strong>key</strong> and a <strong>value</strong> pair, stored within curly brackets <code>{ }</code>. 
+          Each key acts as a label for the corresponding value.
+        </p>
+        <p>
+          This is what an object look like:
+        </p>
+        <img src="../images/object.png" alt="code-showing-an-object-structure" class="img-center">
+        <p>
+          Properties in objects can be accessed, added, changed, and removed by using either dot or bracket notation. 
+        </p>
+        <p>
+          If we take the <code>dog</code> object from above, to get the value of the <code>breed</code> key in our dog object 
+          with both dot and bracket notation, our code will look like:
+        </p>
+        <img src="../images/access-object.png" alt="code-showing-how-to-access-an-object" class="img-center">
         <h3>Functions?</h3>
         <p>A function is a piece of code that if needed can be used multiple times in a program. 
           When developing an application, you often need to perform the same action over and over, 
@@ -193,14 +224,13 @@
         <p class="references"><a href="https://codeinstitute.net/global/blog/control-flow-in-javascript/" target="_blank">https://codeinstitute.net/global/blog/control-flow-in-javascript/</a></p>
         <p class="references"><a href="https://medium.com/@rianna.cleary/control-flow-in-javascript-9c63d0c98bb9" target="_blank">https://medium.com/@rianna.cleary/control-flow-in-javascript-9c63d0c98bb9</a></p>
         <p class="references"><a href="https://developer.mozilla.org/en-US/docs/Glossary/Control_flow" target="_blank">https://developer.mozilla.org/en-US/docs/Glossary/Control_flow</a></p>
-        <p class="references"><a href="https://www.educative.io/answers/what-is-dom">https://www.educative.io/answers/what-is-dom</a></p>
-        <p class="references"><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction</a></p>
-        <p class="references"><a href="https://developer.mozilla.org/en-US/docs/Glossary/Array">https://developer.mozilla.org/en-US/docs/Glossary/Array</a></p>
-        <p class="references"><a href="https://www.javascripttutorial.net/javascript-array/">https://www.javascripttutorial.net/javascript-array/</a></p>
-        <p class="references"><a href=""></a></p>
-        <p class="references"><a href=""></a></p>
-        <p class="references"><a href=""></a></p>
-        
+        <p class="references"><a href="https://www.educative.io/answers/what-is-dom" target="_blank">https://www.educative.io/answers/what-is-dom</a></p>
+        <p class="references"><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank">https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction</a></p>
+        <p class="references"><a href="https://developer.mozilla.org/en-US/docs/Glossary/Array" target="_blank">https://developer.mozilla.org/en-US/docs/Glossary/Array</a></p>
+        <p class="references"><a href="https://www.javascripttutorial.net/javascript-array/" target="_blank">https://www.javascripttutorial.net/javascript-array/</a></p>
+        <p class="references"><a href="https://medium.com/@zac_heisey/objects-vs-arrays-42601ff79421" target="_blank">https://medium.com/@zac_heisey/objects-vs-arrays-42601ff79421</a></p>
+        <p class="references"><a href="" target="_blank"></a></p>
+        <p class="references"><a href="" target="_blank"></a></p>
         <p class="references"><a href="https://www.javascripttutorial.net/javascript-function/" target="_blank">https://www.javascripttutorial.net/javascript-function/</a></p>
         <p class="references"><a href="https://www.programiz.com/javascript/function" target="_blank">https://www.programiz.com/javascript/function</a></p>
       </main>
