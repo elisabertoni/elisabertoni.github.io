@@ -234,11 +234,17 @@ nav ul li a:hover {
   color: #6b8386;
 }
 
+.separation {
+  text-align: center;
+  letter-spacing: 35px;
+  font-weight: 900;
+}
+
 .story {
-  padding: 5px 90px 5px 80px;
+  padding: 15px 90px 5px 80px;
+  font-style: italic;
+  font-size:large;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
   line-height: 1.5;
 }
 
