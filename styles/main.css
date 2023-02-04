@@ -185,6 +185,8 @@ nav ul li a:hover {
   margin: 80px 180px;
 }
 
+
+
 .blog-post img {
   max-width: 100%;
   aspect-ratio: 1 / 1;
@@ -264,6 +266,7 @@ footer {
   margin: 20px;
   padding: 20px;
 }
+
 
 /*
 @media (min-width: 992px)
