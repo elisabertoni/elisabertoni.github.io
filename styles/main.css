@@ -185,12 +185,14 @@ nav ul li a:hover {
   margin: 80px 180px;
 }
 
-
-
 .blog-post img {
   max-width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+}
+
+.blog-post img:hover {
+  opacity: 0.5;
 }
 
 .blog-heading {
