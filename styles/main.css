@@ -34,6 +34,10 @@ p {
   font-size: large;
 }
 
+p a:hover {
+  color: #6b8386;
+}
+
 code {
   font-family: 'Courier New', Courier, monospace;
   background-color: #d3d3d3;
